@@ -15,7 +15,7 @@ Une situation professionnelle sera cadrée par :
  
 ---
 
-###Contexte - description sommaire Fichier
+### Contexte - description sommaire Fichier
 
 Description sommaire du contexte :
 
@@ -23,9 +23,9 @@ Description sommaire du contexte :
 * présentation du contexte
 * présentation des services attendus
 
-###Fiche de situation professionnelle Fichier
+### Fiche de situation professionnelle Fichier
 
-###Fiche de situation professionnelle vierge.
+### Fiche de situation professionnelle vierge.
 
 
 **Remarque :** ce document à présenter pour l'examen BTS SIO 2019 peut changer et nous être communiquer début Janvier par le rectorat
@@ -40,7 +40,7 @@ Vous devrez donc stocker l'ensemble de vos livrables dans ce dossier et à terme
 Il est accessible à l'adresse : http://bit.ly/ein_18
  
 ---
-###SLAM : Intranet de gestion des salles de cours de la M2N
+### SLAM : Intranet de gestion des salles de cours de la M2N
 
 * Fiche de situation professionnelle
 * Documentation de la situation (réponse au cahier des charges, prototypage du site : wireframe, schéma relationnel - description des fonctionnalités, captures d'écran, justification des choix techniques, etc.) ;
