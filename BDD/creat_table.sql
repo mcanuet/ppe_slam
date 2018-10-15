@@ -24,9 +24,8 @@ CREATE TABLE utilisateur(
         utilisateur_num            Int  Auto_increment  NOT NULL ,
         utilisateur_identifiant    Varchar (30) NOT NULL ,
         utilisateur_mdp            Varchar (40) NOT NULL ,
-        utilisateur_admin          Bool NOT NULL ,
-        ligue_num                  Int NOT NULL ,
-        ligue_num_est_responssable Int NOT NULL
+        utilisateur_admin          Bool NOT NULL DEFAULT(0) ,
+        ligue_num                  Int NOT NULL
 	,CONSTRAINT utilisateur_PK PRIMARY KEY (utilisateur_num)
 )ENGINE=InnoDB;
 
