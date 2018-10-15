@@ -24,7 +24,7 @@ CREATE TABLE utilisateur(
         utilisateur_num            Int  Auto_increment  NOT NULL ,
         utilisateur_identifiant    Varchar (30) NOT NULL ,
         utilisateur_mdp            Varchar (40) NOT NULL ,
-        utilisateur_admin          Bool NOT NULL DEFAULT(0) ,
+        utilisateur_admin          Bool NOT NULL ,
         ligue_num                  Int NOT NULL
 	,CONSTRAINT utilisateur_PK PRIMARY KEY (utilisateur_num)
 )ENGINE=InnoDB;
@@ -68,17 +68,8 @@ ALTER TABLE utilisateur
 	REFERENCES ligue(ligue_num);
 
 ALTER TABLE utilisateur
-	ADD CONSTRAINT utilisateur_ligue1_FK
-	FOREIGN KEY (ligue_num_est_responssable)
-	REFERENCES ligue(ligue_num);
-
-ALTER TABLE utilisateur 
-	ADD CONSTRAINT utilisateur_ligue0_AK 
+	ADD CONSTRAINT utilisateur_ligue0_AK
 	UNIQUE (ligue_num);
-
-ALTER TABLE utilisateur 
-	ADD CONSTRAINT utilisateur_ligue1_AK 
-	UNIQUE (ligue_num_est_responssable);
 
 ALTER TABLE ligue
 	ADD CONSTRAINT ligue_utilisateur0_FK
